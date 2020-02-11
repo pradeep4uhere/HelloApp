@@ -147,9 +147,9 @@ export default class ProfileEditScreen extends Component {
             <View style={styles.viewTabRow}>
             <View style={styles.leftBox} >
             <Dropdown
-                label='Chosoe Title'
                 data={data}
-                containerStyle={styles.DropdownBox}
+                containerStyle={{borderBottomWidth:0, marginBottom:15}}
+                value={'Mr'}
             />
             </View>
             
